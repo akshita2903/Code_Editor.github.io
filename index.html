@@ -1,0 +1,35 @@
+﻿ <!DOCTYPE html>
+    <head>
+
+        <title>Code Editor</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--RUN BUTTON(TOP HEADER)-->
+        <div id="top">
+            <button onclick="run()" id="run">Run</button>
+
+        </div>
+        <!--spaecifying where tow rite html,css and js code-->
+        <div id="spans">
+       <div id="html">HTML</div>
+       <div id="css">CSS</div>
+       <div id="js">JS</div>
+    </div>
+    <!--Code area-->
+        <div class="code">
+
+            <textarea id="htmlcode" placeholder="/*HTML*/">
+           </textarea>
+
+            <textarea id="csscode" placeholder="/*CSS*/"></textarea>
+
+            <textarea id="jscode" placeholder="/*js*/"></textarea>
+        </div>
+        <!--Output/Result window-->
+        <div class="preview-window">
+            <iframe  id="preview-window"></iframe>
+        </div>
+        <script  src="script.js"></script>
+    </body>
+</html>
